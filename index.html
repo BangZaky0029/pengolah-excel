@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aplikasi Pengolah Excel</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.16.9/xlsx.full.min.js"></script>
+</head>
+<body>
+    <div class="container">
+        <h1>Aplikasi Pengolah Excel</h1>
+        <p>Upload file Excel Anda dan olah data dengan mudah!</p>
+        <input type="file" id="fileInput" accept=".xlsx, .xls">
+        <button id="processButton">Proses File</button>
+        <div id="result" class="hidden">
+            <h2>Hasil Olahan</h2>
+            <a id="downloadLink" class="button">Download Hasil</a>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
