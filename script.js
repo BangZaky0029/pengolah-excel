@@ -21,14 +21,9 @@ document.getElementById('processButton').addEventListener('click', function() {
 
         // Ambil kolom yang diinginkan
         const selectedColumns = json.map(row => ({
-            "No. Pesanan": row["No. Pesanan"],
-            "Status Pesanan": row["Status Pesanan"],
-            "Pesanan Harus Dikirimkan Sebelum (Menghindari keterlambatan)": row["Pesanan Harus Dikirimkan Sebelum (Menghindari keterlambatan)"],
-            "Waktu Pesanan Dibuat": row["Waktu Pesanan Dibuat"],
             "Waktu Pembayaran Dilakukan": row["Waktu Pembayaran Dilakukan"],
             "SKU Induk": row["SKU Induk"],
             "Nomor Referensi SKU": row["Nomor Referensi SKU"],
-            "Nama Variasi": row["Nama Variasi"],
             "Catatan dari Pembeli": row["Catatan dari Pembeli"]
         }));
 
