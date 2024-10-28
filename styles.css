@@ -24,21 +24,40 @@ h1 {
     margin-bottom: 40px;
 }
 
-button {
+.baganS button {
     display: block;
     width: 100%;
     padding: 10px;
     margin: 20px 0;
-    background-color: #4CAF50;
-    color: white;
+    background-color: #ff8c00;
+    color: black;
     border: none;
     border-radius: 5px;
     font-size: 16px;
     cursor: pointer;
 }
 
-button:hover {
-    background-color: #45a049;
+.baganS button:hover {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.baganT button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin: 20px 0;
+    background-color: #00ffff;
+    color: black;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.baganT button:hover {
+    background-color: #4CAF50;
+    color: white;
 }
 
 .hidden {
