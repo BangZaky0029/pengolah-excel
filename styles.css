@@ -20,6 +20,10 @@ h1 {
     color: #4CAF50;
 }
 
+.bagan {
+    margin-bottom: 40px;
+}
+
 button {
     display: block;
     width: 100%;
@@ -41,11 +45,11 @@ button:hover {
     display: none;
 }
 
-#result {
+#result, #tiktokResult {
     text-align: center;
 }
 
-#downloadLink {
+.button {
     display: inline-block;
     padding: 10px 20px;
     background-color: #2196F3;
@@ -54,6 +58,6 @@ button:hover {
     text-decoration: none;
 }
 
-#downloadLink:hover {
+.button:hover {
     background-color: #1e88e5;
 }
