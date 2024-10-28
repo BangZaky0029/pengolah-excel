@@ -10,12 +10,29 @@
 <body>
     <div class="container">
         <h1>Aplikasi Pengolah Excel</h1>
-        <p>Upload file Excel Anda dan olah data dengan mudah!</p>
-        <input type="file" id="fileInput" accept=".xlsx, .xls">
-        <button id="processButton">Proses File</button>
-        <div id="result" class="hidden">
-            <h2>Hasil Olahan</h2>
-            <a id="downloadLink" class="button">Download Hasil</a>
+
+        <!-- Bagan Shopee -->
+        <div class="bagan">
+            <h2>Shopee</h2>
+            <p>Upload file Shopee Anda dan olah data dengan mudah!</p>
+            <input type="file" id="fileInput" accept=".xlsx, .xls">
+            <button id="processButton">Proses File Shopee</button>
+            <div id="result" class="hidden">
+                <h3>Hasil Olahan Shopee</h3>
+                <a id="downloadLink" class="button">Download Hasil Shopee</a>
+            </div>
+        </div>
+
+        <!-- Bagan TikTok -->
+        <div class="bagan">
+            <h2>TikTok</h2>
+            <p>Upload file TikTok Anda dan olah data dengan mudah!</p>
+            <input type="file" id="tiktokFileInput" accept=".xlsx, .xls">
+            <button id="tiktokProcessButton">Proses File TikTok</button>
+            <div id="tiktokResult" class="hidden">
+                <h3>Hasil Olahan TikTok</h3>
+                <a id="tiktokDownloadLink" class="button">Download Hasil TikTok</a>
+            </div>
         </div>
     </div>
     <script src="script.js"></script>
